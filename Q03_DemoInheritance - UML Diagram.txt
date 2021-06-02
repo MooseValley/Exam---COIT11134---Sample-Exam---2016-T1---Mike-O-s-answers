@@ -1,0 +1,42 @@
+--------------------------------
+Employee
+--------------------------------
+#empName: String
+#empSSN: String 
+--------------------------------
++Employee(String empName, String empSSN)
++setName(String empName): void
++toString(): String
+--------------------------------
+
+
+--------------------------------
+SalaryEmployee extends Employee
+--------------------------------
+-salary : double
+--------------------------------
++SalaryEmployee(String empName, String empSSN, double salary)
++getSalary(): double 
++setSalary(double sal): void
++toString(): String
+--------------------------------
+
+
+--------------------------------
+HourlyEmployee extends Employee
+--------------------------------
+-double hourlyPay;
+-double hoursWorked;
+--------------------------------
++HourlyEmployee(String empName, String empSSN, double hourlyPay, double hoursWorked)
++setHourlyPay(double hourlyPay): void
++setHoursWorked(double hoursWorked): void
++getHourlyPay(): double 
++getHoursWorked(): double 
++toString(): String
+
+
+Key:
+# = pritected
+- = private
++ = public
